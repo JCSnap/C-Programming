@@ -15,7 +15,7 @@ int main(void) {
     sum += i;
     i++;
     printf("Using do-while loop: %d\n", sum);
-  } while (i <= 10);
+  } while (i <= 10); // loop executes once more after condition is false
 
   for (sum = 0, i = 1; i <= 10; i++) {
     sum += i;
