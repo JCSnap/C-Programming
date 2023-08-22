@@ -2,6 +2,8 @@
 #include <math.h>
 #define PI 3.14159265358979323846
 
+// We put a function prototype here so that the compiler knows the parameter type and return type of the function.
+// This is not necessary since the function is called before it is defined
 double circle_area(double);
 
 int main(void) {
